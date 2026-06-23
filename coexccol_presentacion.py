@@ -206,9 +206,9 @@ MESES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO"]
 MESES_SHORT = ["Ene", "Feb", "Mar", "Abr", "May"]
 
 # Producción y Precios
-produccion = [1150.22, 1830.15, 1898.77, 1800.91, 1964.11]
+produccion = [1698.66, 1830.15, 1898.77, 1800.91, 1964.11]
 precio_vta = [290_000, 325_000, 290_000, 290_000, 290_000]
-ingresos = [333_563_800, 594_798_750, 550_643_300, 522_263_900, 569_591_900]
+ingresos = [492_611_400, 594_798_750, 550_643_300, 522_263_900, 569_591_900]
 
 # Costos totales y por categoría
 total_costos = [484_201_441, 561_681_204, 591_548_765, 587_282_336, 539_115_150]
@@ -280,7 +280,7 @@ labor_data = {
     }
 }
 
-labor_totals = [137_060_495, 134_161_457, 148_779_918, 152_908_605, 93_487_221]
+labor_totals = [174_246_947, 198_767_663, 213_743_614, 210_197_785, 157_253_477]
 labor_x_ton  = [lt / p for lt, p in zip(labor_totals, produccion)]
 
 # ---- CONSUMOS DETAIL ----
