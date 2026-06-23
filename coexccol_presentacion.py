@@ -568,7 +568,7 @@ if modulo == "🏠 Resumen Ejecutivo":
     with col2:
         # Donut de composición de costos
         cat_labels = ["Nómina", "Carga Prest.", "Cuota Acerías", "Trans. Carbón",
-                      "Energía", "Regalías", "Restaurante", "Insumos", "Combustible","Madera", "Servidumbre", "Autorrenta" "Otros"]
+                      "Energía", "Regalías", "Restaurante", "Insumos", "Combustible","Madera", "Servidumbre", "Autorrenta", "Otros"]
         cat_vals = [
             sum(nomina[i]      for i in idx_sel),
             sum(carga_prest[i] for i in idx_sel),
