@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║      COEXCCOL — DASHBOARD GERENCIAL DE COSTOS 2026                          ║
+║      COEXCCOL — INFORME CONTABILIDAD DE COSTOS 2026                          ║
 ║      Centro Costa Rica                               ║
 ║      Módulos: Nómina × Tonelada | Consumos | Costos vs Producción           ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
