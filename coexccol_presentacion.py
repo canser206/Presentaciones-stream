@@ -433,7 +433,7 @@ meses_sf  = [MESES_SHORT[i]   for i in idx_sel]
 # ─────────────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="main-header">
-    <h1>⛏ INFORME GERENCIAL DE COSTOS 2026</h1>
+    <h1>⛏ INFORME CONTABILIDAD DE COSTOS 2026</h1>
     <div class="subtitle">COMPAÑÍA EXPORTADORA DE CARBONES DE COLOMBIA SAS · COSTA RICA</div>
     <div class="meta">Enero – Mayo 2026 &nbsp;·&nbsp; Análisis Integral: Nómina · Consumos · Producción</div>
 </div>
