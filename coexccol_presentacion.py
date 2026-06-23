@@ -568,7 +568,7 @@ if modulo == "🏠 Resumen Ejecutivo":
     with col2:
         # Donut de composición de costos
         cat_labels = ["Nómina", "Carga Prest.", "Cuota Acerías", "Trans. Carbón",
-                      "Energía", "Regalías", "Restaurante", "Insumos", "Combustible", "Otros"]
+                      "Energía", "Regalías", "Restaurante", "Insumos", "Combustible","Madera", "Servidumbre", "Autorrenta" "Otros"]
         cat_vals = [
             sum(nomina[i]      for i in idx_sel),
             sum(carga_prest[i] for i in idx_sel),
@@ -579,6 +579,9 @@ if modulo == "🏠 Resumen Ejecutivo":
             sum(restaurante[i] for i in idx_sel),
             sum(insumos_cst[i] for i in idx_sel),
             sum(combustible[i] for i in idx_sel),
+            sum(madera[i] for i in idx_sel),
+            sum(servidumbre[i] for i in idx_sel),
+            sum(autorrenta[i] for i in idx_sel),
             sum(otros_costos[i]for i in idx_sel),
         ]
         fig2 = go.Figure(go.Pie(
