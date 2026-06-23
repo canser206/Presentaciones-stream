@@ -1,7 +1,7 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║      COEXCCOL — DASHBOARD GERENCIAL DE COSTOS 2026                          ║
-║      Mina Frente Pajarita · Centro Costa Rica                               ║
+║      Centro Costa Rica                               ║
 ║      Módulos: Nómina × Tonelada | Consumos | Costos vs Producción           ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 """
@@ -18,7 +18,7 @@ from datetime import datetime
 # CONFIGURACIÓN DE PÁGINA
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="COEXCCOL · Dashboard Gerencial 2026",
+    page_title="COEXCCOL · Informe Gerencial 2026",
     page_icon="⛏️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -212,7 +212,7 @@ ingresos = [333_563_800, 594_798_750, 550_643_300, 522_263_900, 569_591_900]
 
 # Costos totales y por categoría
 total_costos = [484_201_441, 561_681_204, 591_548_765, 587_282_336, 539_115_150]
-nomina       = [168_822_742, 198_767_663, 213_743_614, 210_197_785, 157_253_477]
+nomina       = [174_246_947, 198_767_663, 213_743_614, 210_197_785, 157_253_477]
 carga_prest  = [70_442_617,  71_057_727,  76_527_947,  80_910_432,  81_142_044]
 energia      = [29_603_230,  29_368_280,  38_315_850,  36_893_750,  31_502_690]
 insumos_cst  = [23_584_638,  20_158_111,  20_658_931,  14_065_477,  19_639_124]
@@ -378,7 +378,7 @@ with st.sidebar:
     st.markdown("""
     <div class="sidebar-logo">
         <h2>⛏ COEXCCOL</h2>
-        <p>Frente Pajarita · Costa Rica</p>
+        <p>Centro Costa Rica</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -411,7 +411,7 @@ with st.sidebar:
         <p style="margin:4px 0; color:#2a4a6b">COSTOS_DE_CONSUMOS</p>
         <p style="margin:4px 0; color:#2a4a6b">COSTOS_VS_PRODUCCION_Real</p>
         <p style="margin:10px 0 0; color:#374151">Período: Ene–May 2026</p>
-        <p style="margin:2px 0; color:#374151">RRHH & Proyectos · COEXCCOL</p>
+        <p style="margin:2px 0; color:#374151">Contabilidad · COEXCCOL</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -433,8 +433,8 @@ meses_sf  = [MESES_SHORT[i]   for i in idx_sel]
 # ─────────────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="main-header">
-    <h1>⛏ DASHBOARD GERENCIAL DE COSTOS 2026</h1>
-    <div class="subtitle">Coalcarbones Exclusivos de Colombia · Mina Frente Pajarita</div>
+    <h1>⛏ INFORME GERENCIAL DE COSTOS 2026</h1>
+    <div class="subtitle">COMPAÑÍA EXPORTADORA DE CARBONES DE COLOMBIA SAS · COSTA RICA</div>
     <div class="meta">Enero – Mayo 2026 &nbsp;·&nbsp; Análisis Integral: Nómina · Consumos · Producción</div>
 </div>
 """, unsafe_allow_html=True)
