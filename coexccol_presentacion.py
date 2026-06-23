@@ -18,7 +18,7 @@ from datetime import datetime
 # CONFIGURACIÓN DE PÁGINA
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="COEXCCOL · Informe Gerencial 2026",
+    page_title="COEXCCOL · Informe Contabilidad 2026",
     page_icon="⛏️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -1441,16 +1441,16 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align:center; color:#374151; font-size:0.72rem; padding:16px 0;">
     <p style="margin:0; color:#4a6fa5; font-weight:700; font-size:0.85rem; letter-spacing:2px">
-        ⛏ COALCARBONES EXCLUSIVOS DE COLOMBIA S.A.S · COEXCCOL
+        ⛏ COMPAÑÍA EXPORTADORA DE CARBONES DE COLOMBIA S.A.S · COEXCCOL
     </p>
     <p style="margin:4px 0">
-        Frente Pajarita · Centro Costa Rica · Dashboard Gerencial 2026
+        Centro Costa Rica · Informe Contabilidad 2026
     </p>
     <p style="margin:4px 0; color:#2a4a6b">
         Fuentes: Costos Nómina/Tonelada · Costos de Consumos · Costos vs Producción Real
     </p>
     <p style="margin:4px 0">
-        Área de Recursos Humanos & Proyectos · Elaborado con datos: Ene–May 2026
+        Contabilidad · Elaborado con datos: Ene–May 2026
     </p>
 </div>
 """, unsafe_allow_html=True)
